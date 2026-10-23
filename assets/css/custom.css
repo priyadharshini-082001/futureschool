@@ -334,7 +334,7 @@ body {
     );
     border: 2px solid #a36a38;
     border-radius: 6px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 750;
     white-space: nowrap;
     transition:
@@ -354,7 +354,7 @@ body {
 }
 
 .ot-admission-button i {
-    font-size: 17px;
+    font-size: 12px;
 }
 
 .ot-admission-arrow {
@@ -453,7 +453,7 @@ body {
 
     .ot-top-header a,
     .ot-top-header span {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .ot-top-location {
@@ -741,7 +741,7 @@ body {
     .ot-admission-button {
         min-height: 43px;
         padding: 10px 12px;
-        font-size: 13px;
+        font-size: 12px;
         gap: 7px;
     }
 
@@ -883,7 +883,7 @@ body {
 
     .ot-admission-button {
         padding: 8px;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .ot-admission-button i {
@@ -2910,7 +2910,7 @@ body {
 
     .ot-top-header a,
     .ot-top-header span {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .ot-top-location {
@@ -3100,7 +3100,7 @@ body {
 
     .ot-top-header a,
     .ot-top-header span {
-        font-size: 11px;
+        font-size: 14px;
     }
 
     .ot-top-location {
@@ -3365,7 +3365,7 @@ body {
 
     .ot-admission-button {
         padding: 7px 8px;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .ot-mobile-toggle {
@@ -3416,7 +3416,7 @@ body {
 
     .ot-top-header a,
     .ot-top-header span {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .sb-footer-bottom {

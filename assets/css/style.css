@@ -146,7 +146,6 @@ p,
 span,
 a {
   font-family: var(--dm-sans);
-  font-size: 17px;
   font-weight: 500;
   color: var(--sb-body-color);
   line-height: 28px;
