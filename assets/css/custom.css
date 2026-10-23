@@ -3451,3 +3451,55 @@ body {
         transition-duration: 0.01ms !important;
     }
 }
+/* Why Choose Us - Desktop */
+.sb-cta-home3-area {
+    background-image: url("assets/img/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.sb-cta-home3 {
+    background: rgba(0, 45, 32, 0.85);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+/* Mobile responsive */
+@media (max-width: 767px) {
+    .sb-cta-home3-area {
+        background-size: cover;
+        background-position: 75% center;
+        min-height: 700px;
+    }
+
+    .sb-cta-home3-area .container,
+    .sb-cta-home3-area .row > div {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .sb-cta-home3 {
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        padding: 25px 18px;
+        background: rgba(0, 45, 32, 0.82);
+    }
+
+    .sb-cta-home3-area .sb-section-title-wrapper {
+        padding-bottom: 30px;
+    }
+
+    .sb-cta-home3__item {
+        margin-bottom: 25px;
+    }
+
+    .sb-cta-home3__content h3 {
+        font-size: 19px;
+    }
+
+    .sb-cta-home3__content p {
+        font-size: 15px;
+    }
+}
