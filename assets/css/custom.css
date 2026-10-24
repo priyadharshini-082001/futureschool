@@ -2225,8 +2225,8 @@ body {
 
 .sb-footer-designer-link img {
     display: block;
-    width: 35px;
-    height: 35px;
+        width:50px;
+        height:40px;
     object-fit: contain;
 }
 
@@ -2294,7 +2294,7 @@ body {
 
     .sb-footer-designer-link img {
         width: 50px;
-        height: 50px;
+        height: 40px;
     }
 }
 
@@ -2340,7 +2340,7 @@ body {
 
     .sb-footer-designer-link img {
         width: 50px;
-        height: 50px;
+        height:40px;
     }
 
     .sb-backToTop {
@@ -2376,8 +2376,8 @@ body {
     }
 
     .sb-footer-designer-link img {
-        width:36px;
-        height:36px;
+        width:50px;
+        height:40px;
     }
 }
 
@@ -2653,8 +2653,8 @@ body {
     }
 
     .sb-footer-designer-link img {
-        width: 34px;
-        height: 34px;
+        width:50px;
+        height:40px;
         object-fit: contain;
     }
 
@@ -3332,8 +3332,8 @@ body {
     }
 
     .sb-footer-designer-link img {
-        width: 28px;
-        height: 28px;
+        width:50px;
+        height:40px;
     }
 
     .sb-footer-designer-link strong {
