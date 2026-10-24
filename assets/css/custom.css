@@ -354,7 +354,7 @@ body {
 }
 
 .ot-admission-button i {
-    font-size: 12px;
+    font-size: 17px;
 }
 
 .ot-admission-arrow {
@@ -2523,7 +2523,7 @@ body {
     .ot-admission-button {
         min-height: 45px;
         padding: 10px 13px;
-        font-size: clamp(12px, 0.9vw, 14px);
+        font-size: clamp(15px, 0.9vw, 14px);
         white-space: nowrap;
     }
 

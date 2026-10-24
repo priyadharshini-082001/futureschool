@@ -8851,10 +8851,11 @@ textarea:focus::placeholder {
 .sb-breadcrum-content {
   position: absolute;
   bottom: 0;
-  background: #fff;
+  background: #f3ffee;
   padding:10px;
   left: 0;
   border-radius: 10px 10px 0 0;
+  border: 1px solid darkgoldenrod;
 }
 @media (max-width: 575px) {
   .sb-breadcrum-content {

@@ -331,7 +331,8 @@
 
 
                         <ul class="d-inline-flex align-items-center">
-                            <li><a href="index.html">HOME </a></li>
+                        <li><a href="index.html" style="color:
+                             darkgoldenrod;font-weight: 700;">HOME </a></li>
                             <li> - </li>
                             <li>CONTACT</li>
 
@@ -492,23 +493,6 @@
 
                     </div>
 
-                    <!-- INAUGURATION -->
-                    <div class="ot-contact-detail">
-
-                        <div class="ot-contact-icon">
-                            <i class="fa-regular fa-calendar-check"></i>
-                        </div>
-
-                        <div>
-                            <h3>Inauguration</h3>
-
-                            <p>
-                                May 7, 2026
-                            </p>
-                        </div>
-
-                    </div>
-
                 </div>
 
                 <!-- ADMISSION FORM -->
@@ -523,222 +507,8 @@
                         the form is connected to a submission service.
                     </p>
 
-                    <form class="ot-admission-form"
-                          id="otAdmissionForm">
-
-                        <!-- PARENT NAME -->
-                        <div class="ot-form-group">
-
-                            <label for="parentName">
-                                Parent / Guardian Name *
-                            </label>
-
-                            <input
-                                type="text"
-                                id="parentName"
-                                name="parentName"
-                                placeholder="Enter parent or guardian name"
-                                autocomplete="name"
-                                required>
-                        </div>
-
-                        <!-- STUDENT NAME -->
-                        <div class="ot-form-group">
-
-                            <label for="studentName">
-                                Student Name *
-                            </label>
-
-                            <input
-                                type="text"
-                                id="studentName"
-                                name="studentName"
-                                placeholder="Enter student name"
-                                required>
-                        </div>
-
-                        <!-- PHONE -->
-                        <div class="ot-form-group">
-
-                            <label for="phone">
-                                Mobile Number *
-                            </label>
-
-                            <input
-                                type="tel"
-                                id="phone"
-                                name="phone"
-                                placeholder="Enter mobile number"
-                                autocomplete="tel"
-                                pattern="[0-9+\s()-]{10,18}"
-                                required>
-                        </div>
-
-                        <!-- EMAIL -->
-                        <div class="ot-form-group">
-
-                            <label for="email">
-                                Email Address
-                            </label>
-
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                placeholder="Enter email address"
-                                autocomplete="email">
-                        </div>
-
-                        <!-- CLASS -->
-                        <div class="ot-form-group">
-
-                            <label for="className">
-                                Class Applying For *
-                            </label>
-
-                            <select
-                                id="className"
-                                name="className"
-                                required>
-
-                                <option value="">
-                                    Select class
-                                </option>
-
-                                <option value="Pre-KG">Pre-KG</option>
-                                <option value="LKG">LKG</option>
-                                <option value="UKG">UKG</option>
-
-                                <option value="Grade 1">Grade 1</option>
-                                <option value="Grade 2">Grade 2</option>
-                                <option value="Grade 3">Grade 3</option>
-                                <option value="Grade 4">Grade 4</option>
-                                <option value="Grade 5">Grade 5</option>
-                                <option value="Grade 6">Grade 6</option>
-                                <option value="Grade 7">Grade 7</option>
-                                <option value="Grade 8">Grade 8</option>
-                                <option value="Grade 9">Grade 9</option>
-                                <option value="Grade 10">Grade 10</option>
-                                <option value="Grade 11">Grade 11</option>
-                                <option value="Grade 12">Grade 12</option>
-
-                            </select>
-
-                        </div>
-
-                        <!-- ACADEMIC YEAR -->
-                        <div class="ot-form-group">
-
-                            <label for="academicYear">
-                                Academic Year *
-                            </label>
-
-                            <select
-                                id="academicYear"
-                                name="academicYear"
-                                required>
-
-                                <option value="">
-                                    Select academic year
-                                </option>
-
-                                <option value="2026-2027">
-                                    2026–2027
-                                </option>
-
-                                <option value="2027-2028">
-                                    2027–2028
-                                </option>
-
-                            </select>
-
-                        </div>
-
-                        <!-- ENQUIRY TYPE -->
-                        <div class="ot-form-group ot-full-width">
-
-                            <label for="enquiryType">
-                                Type of Enquiry *
-                            </label>
-
-                            <select
-                                id="enquiryType"
-                                name="enquiryType"
-                                required>
-
-                                <option value="">
-                                    Select enquiry type
-                                </option>
-
-                                <option value="Admission">
-                                    Admission Enquiry
-                                </option>
-
-                                <option value="Campus Visit">
-                                    Campus Visit
-                                </option>
-
-                                <option value="School Facilities">
-                                    School Facilities
-                                </option>
-
-                                <option value="General Enquiry">
-                                    General Enquiry
-                                </option>
-
-                            </select>
-
-                        </div>
-
-                        <!-- MESSAGE -->
-                        <div class="ot-form-group ot-full-width">
-
-                            <label for="message">
-                                Your Message
-                            </label>
-
-                            <textarea
-                                id="message"
-                                name="message"
-                                placeholder="Write your questions or message here"></textarea>
-
-                        </div>
-
-                        <!-- CONSENT -->
-                        <div class="ot-form-group ot-full-width">
-
-                            <div class="ot-consent">
-
-                                <input
-                                    type="checkbox"
-                                    id="consent"
-                                    name="consent"
-                                    required>
-
-                                <label for="consent">
-                                    I agree to be contacted by the
-                                    admissions team regarding my enquiry. *
-                                </label>
-
-                            </div>
-
-                        </div>
-
-                        <!-- SUBMIT -->
-                        <div class="ot-form-group ot-full-width">
-
-                            <button
-                                type="submit"
-                                class="ot-submit-btn">
-
-                                <i class="fa-solid fa-paper-plane"></i>
-                                Submit Admission Enquiry
-
-                            </button>
-
-                        </div>
-
-                    </form>
+                  <iframe aria-label='Contact Us' frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.in/olivetreeglobal1/form/CareerFrom/formperma/6DWS7dNK5KE8XIbTuPMHwiIjwH3q6Jnlyr6sAcA9tT0' >
+</iframe>
 
                     <p class="ot-form-note" id="formMessage"
                        role="status" aria-live="polite">
@@ -793,14 +563,13 @@
 
                         <div class="sb-footer-item pl-60 mb-40 mb-lg-0 fade-up">
 
-                            <ul>
- <li><a href="#!">Home</a> </li>
-                                <li><a href="#!">About Us</a> </li>
-                                <li><a href="#!">Management</a></li>
-                                <li><a href="#!">Activitiy</a> </li>
-                                <li><a href="#!">Career</a> </li>
-                                <li><a href="project.html">Admissions</a></li>
-                                                                <li><a href="project.html">Contact</a></li>
+                              <ul>
+                                <li><a href="index.html">Home</a> </li>
+                                <li><a href="about.html">About Us</a> </li>
+                                <li><a href="chairman.html">Management</a></li>
+                                <li><a href="beyond-academics.html">Activitiy</a> </li>
+                                <li><a href="admission.html">Admissions</a></li>
+                                <li><a href="contact.html">Contact</a></li>
 
                             </ul>
                         </div>
